@@ -1,8 +1,9 @@
 /* Pattern ->
-*
-**
-***
-****
+1
+12
+123
+1234
+12345
 for value of n=4 */
 #include <iostream>
 using namespace std;
