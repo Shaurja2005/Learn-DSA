@@ -1,20 +1,20 @@
 /* Pattern ->
 
-    *
-   ***
-  *****
- *******
 *********
+ *******
+  *****
+   ***
+    *
 
 for value of n=5 */
 #include <iostream>
 using namespace std;
 class Solution{
     public:
-        void pattern7(int n){
-                for(int i=1 ; i<=n ; i++){
+        void pattern8(int n){
+                for(int i=n ; i>0 ; i--){
                     // this one is for rows
-                    for(int k = n-i; k>0;k--){
+                    for(int k = i; k<n;k++){
                         // this one is for spaces
                         cout << " ";
                     }
@@ -31,6 +31,6 @@ int main(){
     cout << "Enter n: ";
     cin >> n;
     Solution s;
-    s.pattern7(n);
+    s.pattern8(n);
     return 0;
 }

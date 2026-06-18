@@ -20,6 +20,7 @@ public:
 
 int main(){
     int n;
+    cout << "Enter n: ";
     cin >> n;
     Solution sol;
     sol.pattern1(n);

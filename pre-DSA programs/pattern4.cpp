@@ -21,6 +21,7 @@ class Solution {
 
 int main(){
     int n;
+    cout << "Enter n: ";
     cin >> n;
     Solution s;
     s.pattern4(n);
